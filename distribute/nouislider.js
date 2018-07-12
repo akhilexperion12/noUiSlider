@@ -579,7 +579,11 @@
 		if ( entry === true || entry === false ) {
 
 			for ( i = 1; i < parsed.handles; i++ ) {
-				connect.push(entry);
+				if (i%2 === 0){
+					connect.push(false);
+				} else {
+					connect.push(entry);
+				}
 			}
 
 			connect.push(false);
