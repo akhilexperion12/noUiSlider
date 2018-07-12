@@ -582,7 +582,7 @@
 				if (i%2 === 0){
 					connect.push(false);
 				} else {
-					connect.push(entry);
+					connect.push(true);
 				}
 			}
 
